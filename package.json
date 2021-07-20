@@ -1,0 +1,27 @@
+{
+  "name": "usaf-html-checkpoint",
+  "version": "0.0.1",
+  "description": "USAF html checkpoint",
+  "main": "product.html",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "live-server",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langley234/USAF-html-checkpoint.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Mike Langenbach and Oleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langley234/USAF-html-checkpoint/issues"
+  },
+  "homepage": "https://github.com/langley234/USAF-html-checkpoint#readme"
+}

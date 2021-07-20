@@ -1,0 +1,142 @@
+ * {
+     padding: 0;
+     margin: 0;
+     font-family: Arial;
+ }
+
+ .header {
+      background-color: #343A40;
+      display: flex;
+  }
+  .logotype {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 26px;
+    
+}  
+
+.logotype a:link{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.logotype a:visited{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.logotype a:hover{
+    color:#FEC02F;
+}
+
+  .header-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+  }
+
+  .search
+  {
+    display: flex;
+    justify-content: right;
+    display: flex; 
+    margin-left:auto;
+    height: 44px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .searchinput {
+    border: 1px solid #454545;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .btnsearch {
+      padding-right: 8px;
+      padding-left: 8px;
+      margin-left: 6px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: 1px solid #FEC02F;
+      border-radius: 5px;
+      color: #FEC02F;
+      
+      text-decoration: none;
+      /*display: inline-block;*/
+      text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #2f3d4b;
+  }
+
+  .content {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .content-title {
+    display: flex;
+    justify-content: center;
+}
+
+    .content-title h2{
+    padding-top: 90px;
+    padding-bottom: 25px;
+}
+    .content-form {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        
+     
+}
+    .forminput {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 425px;
+        height: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;;
+ 
+}
+ .loginbtn {
+    background-color: #157FFB;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
